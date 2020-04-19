@@ -10,8 +10,8 @@ import { chapterEmmiter } from 'src/app/interfaces/generic.interface';
 export class HeaderComponent implements OnInit {
   @Input() appTitle;
 
-  private formGroup:FormGroup;
-  private animeCode: string = '1735';
+  formGroup:FormGroup;
+  animeCode: string = '1735';
 
   constructor(private _formBuilder:FormBuilder) { }
 

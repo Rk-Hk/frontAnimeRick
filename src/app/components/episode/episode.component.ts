@@ -8,9 +8,9 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class EpisodeComponent implements OnInit {
 
-  private actualChapter: string;
-  private animeCod: string;
-  private urlResult: string = 'https://www.zonarutoppuden.com/stream2.php?id=/ns-sub/';
+  actualChapter: string;
+  animeCod: string;
+  urlResult: string = 'https://www.zonarutoppuden.com/stream2.php?id=/ns-sub/';
 
   constructor(
     private _activatedRoute:ActivatedRoute,
